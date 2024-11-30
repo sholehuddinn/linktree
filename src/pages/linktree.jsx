@@ -40,7 +40,7 @@ const LinktreePage = () => {
         <div className="avatar mb-5 d-flex">
           <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
             <img
-              src="https://th.bing.com/th/id/OIP.zJ1pB1J-UuEOQ4lq0aqwrgHaFd?rs=1&pid=ImgDetMain" // Ganti dengan URL foto Anda
+              src="/img/p1.jpg"//Ganti dengan URL foto Anda
               alt="Profile"
             />
           </div>
