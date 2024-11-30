@@ -9,10 +9,24 @@ const LinktreePage = () => {
   }, []);
 
   const links = [
-    { title: "Instagram", url: "https://instagram.com/pro.fajar_/", icon: "📸" },
-    { title: "Linkedin", url: "https://www.linkedin.com/in/muhammad-fajar-sholehuddin-maulana-putra-b901572a1/", icon: "📖" },
-    { title: "GitHub", url: "https://github.com/sholehuddinn", icon: "💻" },
-    { title: "Facebook", url: "https://www.facebook.com/profile.php?id=100048192135710", icon: "🚀" },
+    {
+      title: "Instagram",
+      url: "https://instagram.com/pro.fajar_/",
+      icon: "📸",
+    },
+    {
+      title: "Linkedin",
+      url: "https://www.linkedin.com/in/muhammad-fajar-sholehuddin-maulana-putra-b901572a1/",
+      icon: "📖",
+    },
+    { title: "GitHub", 
+      url: "https://github.com/sholehuddinn", 
+      icon: "💻" },
+    {
+      title: "Facebook",
+      url: "https://www.facebook.com/profile.php?id=100048192135710",
+      icon: "🚀",
+    },
   ];
 
   return (
@@ -31,8 +45,12 @@ const LinktreePage = () => {
             />
           </div>
         </div>
-        <h1 className="text-3xl font-bold">Muhammad Fajar Sholehuddin Maulana Putra</h1>
-        <p className="text-center mt-2 text-gray-200">Mahasiswa Teknik Informatika Universitas Dr. Soetomo</p>
+        <h1 className="text-3xl font-bold">
+          Muhammad Fajar Sholehuddin Maulana Putra
+        </h1>
+        <p className="text-center mt-2 text-gray-200">
+          Mahasiswa Teknik Informatika Universitas Dr. Soetomo
+        </p>
       </div>
 
       {/* Deskripsi Animasi Masuk */}
